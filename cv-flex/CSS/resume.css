@@ -1,0 +1,137 @@
+/* General styles*/
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #332C39;
+    margin: 0;
+}
+
+/* header*/
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    height: 70px;
+    background-color: #FAF9F6;
+    margin: 0;
+}
+
+.name {
+    display: inline-block;
+    position: relative;
+    top: 0;
+}
+
+h1 {
+    margin-top: 0;
+    margin-left: 10px;
+}
+
+/* navigation bar*/
+
+nav {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.navigationBar ul {
+    list-style-type: none;
+    margin-left: 150px;
+    margin-right: 0;
+    padding: 0;
+}
+
+.navigationBar li {
+    display: inline-block;
+
+}
+
+.navigationBar li a {
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+.navigationBar li a:hover {
+    color: #537FE7;
+}
+
+/* Work Experience */
+
+.title {
+    text-align: center;
+}
+
+.workExperience {
+   display: flex;
+   margin-left: 150px;
+   margin-right: 150px;
+   gap: 50px;
+   justify-content: center;
+}
+
+.uk {
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+
+}
+
+.italy {
+   
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+
+}
+
+.bambooAndGreen, .jlsVentures, .ici, .careerBreak, .ibe, .ici1 {
+    height: 200px;
+    width: 500px;
+    background-color: #FAF9F6;
+    
+}
+
+.incubatore, .mcc, .swad, .seat  {
+    height: 200px;
+    width: 500px;
+    background-color: #FAF9F6;
+    
+}
+/* Education */
+
+.education {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+table,
+th,
+td {
+    padding: 10px;
+
+}
+
+th,
+tr:nth-child(even) {
+    background-color: #FAF9F6;
+}
+
+/* Certifications */
+
+.certifications {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+
+/* footer */
+
+
+footer {
+    height: 250px;
+    background-color: #FAF9F6;
+}

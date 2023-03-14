@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="CSS/styles.css" />
+    <link rel="icon" type="image/x-icon" href="resources/leti-favicon.ico" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Contact me</title>
+  </head>
+
+  <body>
+    <div>
+      <header>
+        <svg viewBox="0 0 25 25">
+          <rect x="10" y="10" fill="#537FE7" width="20" height="20" />
+        </svg>
+        <div class="name">
+          <h1>Letizia Sorrentino</h1>
+        </div>
+
+        <nav>
+          <div class="burger-container" tabindex="0">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="sub-menu">
+              <ul class="menu">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="resume.html">RESUME</a></li>
+                <li>
+                  <a href="https://bambooandgreen.com" target="_blank">BLOG</a>
+                </li>
+                <li><a href="#">PROJECTS</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <main class="contact-container">
+        <div class="contact-intro">
+          <h1 class="contact-title">Contact me</h1>
+          <p class="contact-description">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas
+            debitis, fugit natus?
+          </p>
+          <img src="resources/contact-page.png" class="mail-image" alt="contact-page">
+        </div>
+
+        <div class="contact-form">
+          <form class="form" method="POST" action="mailto:letizia.sorrentino@gmail.com">
+            <label for="fname" class="label">First Name</label>
+            <input
+              type="text"
+              id="fname"
+              name="firstname"
+              placeholder="Your first name.."
+            />
+
+            <label for="lname" class="label">Last Name</label>
+            <input
+              type="text"
+              id="lname"
+              name="lastname"
+              placeholder="Your last name.."
+            />
+
+            <label for="subject" class="label">Subject</label>
+            <textarea
+              id="subject"
+              name="subject"
+              placeholder="Your message.."
+              style="height: 200px"
+            ></textarea>
+
+            <input type="submit" value="SUBMIT" class="button"/>
+          </form>
+        </div>
+      </main>
+    </div>
+
+    <footer>
+      <h2>Social</h2>
+      <div class="social">
+        <p>
+          Find me on:
+          <a
+            href="https://www.linkedin.com/in/letiziasorrentino/"
+            target="_blank"
+          >
+            <img
+              class="linkedinIcon"
+              src="resources/linkedin_icon.jpeg"
+              alt="linkedin icon"
+            />
+          </a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
